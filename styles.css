@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap');
 
 /*
 * {
@@ -54,7 +55,7 @@ body {
     background-image: url(media/cod3.jpg);
     background-blend-mode: multiply;
     background-size: cover;
-    padding-bottom: 30px;
+     padding-bottom: 30px;
     border-bottom: 4px solid #EE457C;
 }
 
@@ -118,7 +119,7 @@ body {
 }
 
 .borrador {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Stick No Bills', sans-serif;
     font-size: .55cm;
     margin-left: 7cm;
     margin-right: 7cm;
