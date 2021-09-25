@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<!--
+    1. Encabezado con la etiqueta <header>.
+    2. Construir un menú, utilizando las etiquetas <nav>, <ul> y <li>
+    que tenga las ocpiones Inicio, Temas (tema1,tema2), Recursos Digitales
+    (recurso1,recurso2), Aprendizaje (actividad1, actividad2).
+    3. Etiqueta <section> que describa el propósito del sitio.
+    4. Etiqueta <article> con un borrador sobre los contenidos que 
+    se publicarán en el sitio web. citaciones en APA.
+    5. Agregar <footer> con datos de contacto del autor.
+    Insertar el pantallazo del mockup de la paágina design.html, 
+    haciendo uso de la etiqueta <img>.
+    Buscar una herramienta para realizar mockups
+-->
+
+<head>
+    <title>Sintaxis y Selectores CSS</title>
+    <meta name="keywords" content="HTML, CSS, Sintaxis, Selectores" />
+    <meta name="description" content="Sintaxis y Selectores CSS" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="temas.html">TEMAS</a></li>
+                <li><a href="recursos.html">RECURSOS DIGITALES</a></li>
+                <li><a href="aprendizaje.html">APRENDIZAJE</a></li>
+            </ul>
+        </nav>
+        <!--<hr />-->
+        <center>
+            <h1 class="nombre-pag">Sintaxis y Selectores CSS</h1>
+            <h2 class="sub">Interacción humano-ordenador</h2>
+        </center>
+    </header>
+    <section class="contenido-acerca">
+        <h2 class="acerca-de">ACERCA DE</h2>
+        <img class="acerca-de-img" src="media/cod.jpeg" />
+        <center>
+            <p>La <big>Educación Remota</big> cada vez es más común en nuestra época, debido a la proliferación y desarrollo de nuevas teconologías que facilitan la comunicación y por extensión, la enseñanza de contenidos a través de diferentes plataformas
+                virtuales. En conjunto con lo anterior, un mercado que se ve fuertemente influenciado por la tecnología requiere cada vez más a personas capacitadas para atender las nuevas problemáticas que surgen en cuanto al desarrollo de aplicaciones,
+                diseño web y manejo de la información.
+            </p>
+            <brk />
+            <p>
+                Con esto en mente, el objetivo de este recurso es brindar información sencilla y sintetizada sobre los algunos elementos de CSS y HTML. Ambas herramientas son para el desarrollo web de vital importancia y requieren de un estudio que involucre de ejemplos
+                y ejercicios prácticos para afianzar de una manera adecuada los conocimientos.
+            </p>
+            <brk />
+            <img class="acerca-de-img-2" src="media/chill.jpeg" />
+            <p>
+                A razón de la pandemia por la <strong>COVID-19</strong>, gobiernos de todo el planeta han reaccionado de una manera controlada a la brusca situación que se descontroló rápidamente. Entre esas racciones se encuentran nuevas leyes para el
+                teletrabajo e inyecciones de capital para rescatar empresas afectadas negativamente por la situación, a la par que se promueve la <em>"alfabetización tecnológica"</em>, es decir, la instrucción masiva en plataformas web y tecnologías para
+                que cada vez más personas contemplen la posibilidad de laborar desde casa, previniendo afectaciones a la salud. Esto por supuesto, es una situación que se extiende a ambientes de educación, tales como colegios, universidades o cualquier
+                tipo de centro de enseñanza.
+            </p>
+            <brk />
+            <p>Con estos recursos educativos digitales se facilita reforzar la comprensión de las personas por medio de introducciones sencillas al tema, haciendo uso de ejemplos e implementando ejercicios prácticos para visualizar de una manera eficiente
+                los avances obtenidos.
+            </p>
+        </center>
+    </section>
+    <article class="borrador">
+        <h2>BORRADOR DE CONTENIDO</h2>
+        <p>PHP is PHP Hypertext Preprocessor</p>
+    </article>
+    <footer class="footer-principal">
+        <div class="container contenedor-footer-principal">
+            <h2 class="contacto-tit">CONTACTO</h2>
+            <ul class="nav nav-footer">
+                <li><img src="media/logo-Gmail-1.png" width="40" height="30" /> micorreo@gmail.com
+                </li>
+                <li><img src="media/skype_logo.jpeg" width="40" height="30" /></li>
+            </ul>
+        </div>
+    </footer>
+    <button type="button">Saber más</button>
+    <!--cambio realizado desde VSCODE
+    <a href="https://www.spotify.com" target="_blank">
+        <img src="Images/spot_logo.png"
+    </a>
+    -->
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+/*
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    color: darkgoldenrod;
+}
+*/
+
+html,
+body {
+    margin: .0cm;
+    padding: 0;
+    background-color: #17221E;
+    background-image: url("media/cod2.jpg");
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    padding: .5cm;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: .75cm;
+    font-weight: lighter;
+    border-bottom: 4px solid #EE457C;
+    font-family: 'Teko', sans-serif;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: lightslategray;
+    background-size: .2cm;
+}
+
+.main-header {
+    background-color: grey;
+    background-image: url(media/cod3.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #EE457C;
+}
+
+.nombre-pag {
+    text-align: center;
+    margin: 0;
+    font-size: 2cm;
+    font-family: 'Teko', sans-serif;
+    font-weight: normal;
+    color: #EE457C;
+}
+
+.sub {
+    text-align: center;
+    margin: 0;
+    font-size: 1cm;
+    font-family: 'Teko', sans-serif;
+    font-weight: normal;
+    color: #EE457C;
+}
+
+.acerca-de {
+    text-align: center;
+    margin: 0;
+    font-size: 1cm;
+    font-family: 'Teko', sans-serif;
+    font-weight: normal;
+    color: black;
+}
+
+.contenido-acerca {
+    font-family: 'Oswald', sans-serif;
+    font-size: .55cm;
+    margin-left: 7cm;
+    margin-right: 7cm;
+    margin-top: 1cm;
+    background-color: wheat;
+    color: black;
+}
+
+.acerca-de-img {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.acerca-de-img-2 {
+    float: right;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5cm;
+}
+
+.borrador {
+    font-family: 'Oswald', sans-serif;
+    font-size: .55cm;
+    margin-left: 7cm;
+    margin-right: 7cm;
+    margin-top: 1cm;
+    background-color: wheat;
+    color: black;
+}
+
+.footer-principal {
+    background-color: tomato;
+    padding: .025cm 0;
+}
+
+.contacto-tit {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1cm;
+}
+
+.contenedor-footer-principal {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-footer-principal ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.nav-footer li {
+    padding: 0 .5cm;
+}
+
+.nav-footer img {
+    width: 60px;
+    height: 50px;
+}
