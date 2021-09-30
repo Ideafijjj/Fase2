@@ -146,7 +146,8 @@ body {
 .contenedor-footer-principal ul {
     flex-grow: 2;
     font-size: 0.5cm;
-    text-align: center;
+    text-align: end;
+    align-content: center;
 }
 
 .nav-footer li {
