@@ -135,7 +135,7 @@ body {
 
 .contacto-tit {
     font-family: 'Architects Daughter', cursive;
-    font-size: 0.5cm;
+    font-size: cm;
 }
 
 .contenedor-footer-principal {
@@ -149,7 +149,7 @@ body {
 }
 
 .nav-footer li {
-    padding: 0 .7cm;
+    padding: 1cm;
 }
 
 .nav-footer img {
