@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-
-
 /*
 * {
     box-sizing: border-box;
@@ -11,8 +9,7 @@
 }
 */
 
-html,
-body {
+html, body {
     margin: .0cm;
     padding: 0;
     background-color: #17221E;
@@ -55,7 +52,7 @@ body {
     background-image: url(media/cod3.jpg);
     background-blend-mode: multiply;
     background-size: cover;
-     padding-bottom: 30px;
+    padding-bottom: 30px;
     border-bottom: 4px solid #EE457C;
 }
 
@@ -120,7 +117,7 @@ body {
 
 .borrador {
     font-family: 'Oswald', sans-serif;
-    font-size: .36cm;
+    font-size: .55cm;
     margin-left: 7cm;
     margin-right: 7cm;
     margin-top: 1cm;
@@ -152,7 +149,7 @@ body {
 
 .nav-footer li {
     padding: 0.3cm;
-    }
+}
 
 .nav-footer img {
     width: 30px;
