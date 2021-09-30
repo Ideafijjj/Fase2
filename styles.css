@@ -135,7 +135,7 @@ body {
 
 .contacto-tit {
     font-family: 'Architects Daughter', cursive;
-    font-size: 1cm;
+    font-size: cm;
 }
 
 .contenedor-footer-principal {
@@ -145,6 +145,7 @@ body {
 
 .contenedor-footer-principal ul {
     flex-grow: 1;
+    font-size: 2cm;
     text-align: end;
 }
 
