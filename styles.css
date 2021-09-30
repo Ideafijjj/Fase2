@@ -144,7 +144,7 @@ body {
 }
 
 .contenedor-footer-principal ul {
-    flex-grow: 1;
+    flex-grow: 2;
     font-size: 0.5cm;
     text-align: end;
 }
