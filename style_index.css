@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+html, body {
+    margin: .0cm;
+    padding: 0;
+    background-color: #17221E;
+    background-image: url("media/cod2.jpg");
+}
+
+.main-header {
+    background-color: grey;
+    background-image: url(media/cod3.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+    border-bottom: 4px solid #EE457C;
+}
+
+.contenido-acerca {
+    font-family: 'Oswald', sans-serif;
+    font-size: .55cm;
+    margin-left: 7cm;
+    margin-right: 7cm;
+    margin-top: 1cm;
+    background-color: wheat;
+    color: black;
+}
