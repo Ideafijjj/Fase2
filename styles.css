@@ -151,10 +151,10 @@ body {
 }
 
 .nav-footer li {
-    padding: cm;
+    padding: 0.3cm;
     }
 
 .nav-footer img {
-    width: 60px;
-    height: 50px;
+    width: 30px;
+    height: 10px;
 }
