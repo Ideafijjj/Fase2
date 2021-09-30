@@ -8,6 +8,37 @@ html, body {
     background-image: url("media/cod2.jpg");
 }
 
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    padding: .5cm;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: .75cm;
+    font-weight: lighter;
+    border-bottom: 4px solid #EE457C;
+    font-family: 'Teko', sans-serif;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: lightslategray;
+    background-size: .2cm;
+}
+
 .main-header {
     background-color: grey;
     background-image: url(media/cod3.jpg);
@@ -15,16 +46,6 @@ html, body {
     background-size: cover;
     padding-bottom: 30px;
     border-bottom: 4px solid #EE457C;
-}
-
-.contenido-acerca {
-    font-family: 'Oswald', sans-serif;
-    font-size: .55cm;
-    margin-left: 7cm;
-    margin-right: 7cm;
-    margin-top: 1cm;
-    background-color: wheat;
-    color: black;
 }
 
 .nombre-pag {
@@ -43,4 +64,14 @@ html, body {
     font-family: 'Teko', sans-serif;
     font-weight: normal;
     color: #EE457C;
+}
+
+.contenido-acerca {
+    font-family: 'Oswald', sans-serif;
+    font-size: .55cm;
+    margin-left: 7cm;
+    margin-right: 7cm;
+    margin-top: 1cm;
+    background-color: wheat;
+    color: black;
 }
